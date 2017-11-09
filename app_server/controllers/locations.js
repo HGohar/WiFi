@@ -8,7 +8,7 @@ module.exports.homelist = function(req,res){
 
 /* GET 'locationInfo' page */		
 module.exports.locationInfo = function(req,res){	
-	res.render("index",{title:"locationInfo"}
+	res.render("location-info",{title:"Location info"}
 	)}		
 
 /* GET 'Add review' page */	
